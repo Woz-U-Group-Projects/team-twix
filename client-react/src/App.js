@@ -14,6 +14,7 @@ function App() {
     </div>
 
       <Task />
+      <footer><p>Team-Twix 2020</p></footer>
     </div>
   );
 }

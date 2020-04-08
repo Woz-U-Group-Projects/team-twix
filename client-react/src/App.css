@@ -1,5 +1,16 @@
+/* Colors: */
+:root{
+    --highlight: #BDD4E7;
+    --shadow: #212227;
+    --main: #6998BF;
+    --dark-main: #637074;
+    --light-main: #AAB9CF;
+}
+
+
+
 body {
-    background-color: lightgray;
+    background-color: var(--light-main);
     margin: auto;
     width: 80%;
 }
@@ -24,4 +35,17 @@ span {
 
 button{
     border-radius: 4px;
+}
+
+footer{
+    height: 50px;
+    background-color: var(--dark-main);
+    color: var(--light-main);
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+footer p{
+    text-align: center;
 }
